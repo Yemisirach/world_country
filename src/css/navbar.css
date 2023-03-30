@@ -14,11 +14,12 @@
   margin: 10%;
   padding-right: 40px;
   width: 120px;
+  color: #211f1f;
 }
 .nav-arrow-icon {
   font-size: 40px;
   height: 15hv;
-  color: #000;
+  color: #211f1f;
   padding-left: 2%;
 }
 .row {
@@ -27,6 +28,16 @@
   height: 5rem;
   align-items: center;
   background-color: #b42d5c;
+}
+@media only screen and (max-width: 768px) {
+  .country-item {
+    width: 10%;
+  }
+
+  .search-input {
+    width: 30%;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -40,7 +51,6 @@
     height: 5hv;
     width: 100px;
     margin: 10%;
-    /* padding: 10%; */
     padding-right: 40px;
     color: #211f1f;
   }
