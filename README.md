@@ -52,7 +52,7 @@
 To get a local copy up and running, follow these steps.
 
 - Clone the Repo or Download the Zip file or `https://github.com/Yemisirach/world_country.git`
-- cd /rocket-mission-react
+- cd /react-project
 - `npm install` To download all the dependancies of the project
 - Use `npm start` to run the app in your browser
 
