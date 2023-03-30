@@ -1,40 +1,28 @@
 import { NavLink } from "react-router-dom";
-// import "../css/styles";
+import { IoIosArrowBack } from "react-icons/io";
+import { FaMicrophone, FaCog } from "react-icons/fa";
+import { Row, Col } from "react-bootstrap";
+import "../css/navbar.css";
 
 function Navbar() {
   return (
-    <>
-      <nav className="nav-bar">
-        <div className="logo-container">
-          {/* <img src={logo} className="logo" alt="website-logo" /> */}
-          <h1 className="home-title">Space Travelers&apos; Hub</h1>
-        </div>
-        <ul className="linkListBox">
-          <li>
-            <NavLink to="/Rocket" className="linkStyle">
-              Rocket
-            </NavLink>
-          </li>
+    <Row className="row">
+      <Col className="nav-arrow-icon">
+        <NavLink to="/">
+          <IoIosArrowBack />
+        </NavLink>
+      </Col>
 
-          <li>
-            <NavLink to="/Missions" className="linkStyle">
-              Missions
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/Dragon" className="linkStyle">
-              Dragon
-            </NavLink>
-          </li>
-          <li className="linkList">
-            <NavLink to="/MyProfile" className="linkStyle myProfile">
-              My Profile
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-      <hr className="line" />
-    </>
+      <Col>
+        <h1 className="header">Country States</h1>
+      </Col>
+      <Col>
+        <div className="nav-icon">
+          <FaMicrophone size={25} />
+          <FaCog size={25} />
+        </div>
+      </Col>
+    </Row>
   );
 }
 export default Navbar;

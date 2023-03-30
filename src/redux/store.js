@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import homeReducer from "../redux/Home/homeslice";
+import countryReducer from "../redux/contries/contriesSlice";
 
 const store = configureStore({
   reducer: {
-    rockets: homeReducer,
+    countries: countryReducer,
   },
 });
 
