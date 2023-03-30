@@ -6,23 +6,25 @@ import "../css/navbar.css";
 
 function Navbar() {
   return (
-    <Row className="row">
-      <Col className="nav-arrow-icon">
+    <div className="row">
+      <div className="nav-arrow-icon">
         <NavLink to="/">
           <IoIosArrowBack />
         </NavLink>
-      </Col>
+      </div>
 
-      <Col>
+      <div>
         <h1 className="header">Country States</h1>
-      </Col>
-      <Col>
-        <div className="nav-icon">
-          <FaMicrophone size={25} />
-          <FaCog size={25} />
+      </div>
+      <div className="nav-icon">
+        <div>
+          <FaMicrophone size={20} />
         </div>
-      </Col>
-    </Row>
+        <div>
+          <FaCog size={20} />
+        </div>
+      </div>
+    </div>
   );
 }
 export default Navbar;

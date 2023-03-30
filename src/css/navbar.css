@@ -6,21 +6,29 @@
 
 .nav-icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  padding: 4%;
-  font-size: 40px;
-  height: 15hv;
-  margin: 10%;
   padding-right: 40px;
-  width: 120px;
+  color: #211f1f;
+  cursor: pointer;
+  padding: 2%;
+}
+
+.nav-arrow-icon {
+  margin-left: 2%;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav-arrow-icon a {
+  font-size: 30px;
+  height: 15hv;
   color: #211f1f;
 }
-.nav-arrow-icon {
-  font-size: 40px;
-  height: 15hv;
-  color: #211f1f;
-  padding-left: 2%;
+.row div {
+  width: 33%;
+}
+.nav-icon div {
+  width: 13%;
 }
 .row {
   display: flex;
@@ -28,36 +36,30 @@
   height: 5rem;
   align-items: center;
   background-color: #b42d5c;
+  font-size: 15px;
 }
+
 @media only screen and (max-width: 768px) {
-  .country-item {
-    width: 10%;
-  }
-
-  .search-input {
-    width: 30%;
-    margin: auto;
-  }
-}
-
-@media only screen and (max-width: 375px) {
   .header {
     font-size: 20px;
     align-items: center;
+    color: #211f1f;
+    display: flex;
+    justify-content: center;
   }
   .nav-icon {
     align-items: center;
     font-size: 10px;
     height: 5hv;
-    width: 100px;
-    margin: 10%;
-    padding-right: 40px;
     color: #211f1f;
   }
-  .nav-arrow-icon {
+  .nav-arrow-icon a {
     font-size: 20px;
     height: 8hv;
     color: #211f1f;
     padding-left: 2%;
+  }
+  .nav-icon div {
+    width: 33%;
   }
 }
