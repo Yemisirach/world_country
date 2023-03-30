@@ -1,8 +1,7 @@
-import { NavLink } from "react-router-dom";
-import { IoIosArrowBack } from "react-icons/io";
-import { FaMicrophone, FaCog } from "react-icons/fa";
-import { Row, Col } from "react-bootstrap";
-import "../css/navbar.css";
+import { NavLink } from 'react-router-dom';
+import { IoIosArrowBack } from 'react-icons/io';
+import { FaMicrophone, FaCog } from 'react-icons/fa';
+import '../css/navbar.css';
 
 function Navbar() {
   return (

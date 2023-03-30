@@ -8,7 +8,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 40px;
   color: #211f1f;
   cursor: pointer;
   padding: 2%;
@@ -19,17 +18,20 @@
   display: flex;
   justify-content: flex-start;
 }
+
 .nav-arrow-icon a {
   font-size: 30px;
-  height: 15hv;
   color: #211f1f;
 }
+
 .row div {
   width: 33%;
 }
+
 .nav-icon div {
   width: 13%;
 }
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -47,18 +49,19 @@
     display: flex;
     justify-content: center;
   }
+
   .nav-icon {
     align-items: center;
     font-size: 10px;
-    height: 5hv;
     color: #211f1f;
   }
+
   .nav-arrow-icon a {
     font-size: 20px;
-    height: 8hv;
     color: #211f1f;
     padding-left: 2%;
   }
+
   .nav-icon div {
     width: 33%;
   }

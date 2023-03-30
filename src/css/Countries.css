@@ -4,14 +4,15 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  background-color: #efe6e9;
   padding: 32px;
   text-align: center;
   background-color: #ee6b99;
 }
+
 .main-list {
   background-color: #ee6b99;
 }
+
 .selected-country-details h3 {
   color: #060606 !important;
   margin-bottom: 12px;
@@ -22,20 +23,6 @@ ul {
   display: flex;
   flex-direction: column;
 }
-ul strong:nth-child(odd) {
-  background-color: #bd2459;
-}
-ul strong:nth-child(even) {
-  color: black;
-}
-.country-details-content {
-  color: #fff;
-  background-color: black;
-  justify-content: center;
-  width: 80%;
-  margin: auto;
-  border-radius: 5px;
-}
 
 strong {
   background-color: #ee6b99;
@@ -45,12 +32,30 @@ strong {
   font-size: 15px;
 }
 
+ul strong:nth-child(odd) {
+  background-color: #bd2459;
+}
+
+ul strong:nth-child(even) {
+  color: black;
+}
+
+.country-details-content {
+  color: #fff;
+  background-color: black;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+}
+
 .country-flag {
   height: 10rem;
   border: 1px;
   box-shadow: 0 0 15px 0 #070707;
   margin-bottom: 0.5rem;
 }
+
 .flag-image {
   background: #d7376f;
   padding: 3%;

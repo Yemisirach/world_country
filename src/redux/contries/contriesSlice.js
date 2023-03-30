@@ -1,15 +1,15 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 export const fechCountries = createAsyncThunk(
-  "countries/FechCountries",
+  'countries/FechCountries',
   async () => {
-    const result = await fetch("https://restcountries.com/v2/all");
+    const result = await fetch('https://restcountries.com/v2/all');
     return result.json();
-  }
+  },
 );
 
 const countriesSlice = createSlice({
-  name: "countries",
+  name: 'countries',
   initialState: {
     loading: false,
     error: null,
