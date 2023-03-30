@@ -1,7 +1,7 @@
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./routes/navbar";
-import Countries from "./components/countries";
-import Country from "./components/conutry";
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './routes/navbar';
+import Countries from './components/countries';
+import Country from './components/conutry';
 
 function App() {
   return (

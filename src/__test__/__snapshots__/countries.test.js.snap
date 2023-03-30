@@ -5,15 +5,113 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <p>
-        Country not found
-      </p>
+      <div
+        class="main-list"
+      >
+        <div
+          class="flag-info"
+        >
+          <div
+            class="flag-image"
+          >
+            <img
+              class="country-flag"
+            />
+            <h2 />
+          </div>
+        </div>
+        <div
+          class="selected-country-details"
+        >
+          <h3
+            class="country-details"
+          >
+            Stats Breakdown
+          </h3>
+        </div>
+        <ul
+          class="country-details-content"
+        >
+          <strong>
+            Timezone: 
+          </strong>
+          <strong>
+            Capital: 
+          </strong>
+          <strong>
+            Population: 
+          </strong>
+          <strong />
+          <strong>
+            Area: 
+             km
+            <sup>
+              2
+            </sup>
+          </strong>
+          <strong>
+            Languages:
+          </strong>
+          <strong>
+            Currencies:
+          </strong>
+        </ul>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <p>
-      Country not found
-    </p>
+    <div
+      class="main-list"
+    >
+      <div
+        class="flag-info"
+      >
+        <div
+          class="flag-image"
+        >
+          <img
+            class="country-flag"
+          />
+          <h2 />
+        </div>
+      </div>
+      <div
+        class="selected-country-details"
+      >
+        <h3
+          class="country-details"
+        >
+          Stats Breakdown
+        </h3>
+      </div>
+      <ul
+        class="country-details-content"
+      >
+        <strong>
+          Timezone: 
+        </strong>
+        <strong>
+          Capital: 
+        </strong>
+        <strong>
+          Population: 
+        </strong>
+        <strong />
+        <strong>
+          Area: 
+           km
+          <sup>
+            2
+          </sup>
+        </strong>
+        <strong>
+          Languages:
+        </strong>
+        <strong>
+          Currencies:
+        </strong>
+      </ul>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
