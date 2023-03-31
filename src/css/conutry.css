@@ -1,7 +1,7 @@
 .countries-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   background: #de618d;
 }
 
@@ -35,8 +35,9 @@
 
 .country-flag {
   width: 150px;
-  height: auto;
+  height: 100px;
   margin: 10px;
+  padding: 2%;
   border-radius: 10px;
 }
 
@@ -97,20 +98,26 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .countries-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .flag-img {
-    width: 80%;
+    width: 35%;
     height: 40px;
+    padding: 5%;
   }
 
   .country-item {
-    width: 80%;
-    height: 300px;
+    width: 45%;
+    height: 230px;
     margin: 2% 1%;
   }
 
   .country-item:nth-child(4n + 2),
   .country-item:nth-child(4n + 3) {
-    background-color: #e15081;
+    background-color: #e95586;
   }
 
   .countries-list-container {

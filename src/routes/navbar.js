@@ -13,7 +13,7 @@ function Navbar() {
       </div>
 
       <div>
-        <h1 className="header">Country States</h1>
+        <h1 className="header">Country List</h1>
       </div>
       <div className="nav-icon">
         <div>
