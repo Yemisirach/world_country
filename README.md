@@ -77,7 +77,8 @@ In order to run this project you need:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - See it live by clicking [Live Demo Link](https://worldcontries.onrender.com)
-
+- Watch it by clicking [video Link](https://www.loom.com/share/71b8ebd65a4b4e7da826292a2d6ce8db)
+)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
