@@ -33,18 +33,21 @@ Object {
           class="country-details-content"
         >
           <strong>
-            Timezone: 
+            Timezone:
           </strong>
           <strong>
-            Capital: 
+            Capital:
           </strong>
           <strong>
-            Population: 
+            Population:
+             
           </strong>
           <strong />
           <strong>
-            Area: 
-             km
+            Area:
+             
+             
+            km
             <sup>
               2
             </sup>
@@ -88,18 +91,21 @@ Object {
         class="country-details-content"
       >
         <strong>
-          Timezone: 
+          Timezone:
         </strong>
         <strong>
-          Capital: 
+          Capital:
         </strong>
         <strong>
-          Population: 
+          Population:
+           
         </strong>
         <strong />
         <strong>
-          Area: 
-           km
+          Area:
+           
+           
+          km
           <sup>
             2
           </sup>

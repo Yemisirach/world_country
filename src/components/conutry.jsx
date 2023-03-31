@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { fechCountries } from "../redux/contries/contriesSlice";
-import "../css/conutry.css";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import '../css/conutry.css';
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
+import { AiOutlineLoading3Quarters } from 'react-icons/ai';
+import { fechCountries } from '../redux/contries/contriesSlice';
 
 function Country() {
   const { countries, loading, error } = useSelector((state) => state.countries);
   const dispatch = useDispatch();
 
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState('');
   const [filterCountries, setFilteredCountries] = useState([]);
 
   useEffect(() => {
@@ -19,18 +19,17 @@ function Country() {
 
   useEffect(() => {
     setFilteredCountries(
-      countries.filter((country) =>
-        country.name.toLowerCase().includes(searchTerm.toLowerCase())
-      )
+      countries.filter((country) => country.name.toLowerCase().includes(searchTerm.toLowerCase())),
     );
   }, [countries, searchTerm]);
 
-  if (loading)
+  if (loading) {
     return (
       <h2 className="loading">
         <AiOutlineLoading3Quarters />
       </h2>
     );
+  }
   if (error) {
     return (
       <p>

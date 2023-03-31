@@ -17,6 +17,7 @@
   color: #060606 !important;
   margin-bottom: 12px;
   padding: 8px;
+  text-align: center;
 }
 
 ul {
@@ -30,6 +31,8 @@ strong {
   margin: 0.1rem;
   border-radius: 5px;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 ul strong:nth-child(odd) {
